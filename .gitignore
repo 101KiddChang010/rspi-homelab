@@ -1,0 +1,7 @@
+# Sensitive credentials and environment files
+.env
+*.env
+
+# Ignore all live Pi-hole data inside subdirectories
+pihole/config/*
+pihole/dnsmasq/*
