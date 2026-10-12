@@ -1,0 +1,15 @@
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    network_mode: "host"
+    environment:
+      TZ: ${PIHOLE_TIME_ZONE}
+      FTLCONF_webserver_api_password: ${PIHOLE_PASSWORD}
+      FTLCONF_dns_listeningMode: ${PIHOLE_LISTENING_MODE}
+    volumes:
+      - './services/pihole/etc-pihole:/etc/pihole'
+      - './services/pihole/etc-dnsmasq.d:/etc/dnsmasq.d'
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped

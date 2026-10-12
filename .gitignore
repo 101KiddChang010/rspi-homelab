@@ -2,6 +2,6 @@
 .env
 *.env
 
-# Ignore all live Pi-hole data inside subdirectories
-pihole/config/*
-pihole/dnsmasq/*
+# Ignores all pihole data
+services/pihole/etc-pihole/*
+servsices/pihole/etc-dnsmasq.d/*
