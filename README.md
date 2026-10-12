@@ -10,21 +10,20 @@ This repository manages services using a Infrastructure as Code (IaC) principles
 
 ## Quick Start
 
-1. Prerequisites:
+### 1. Prerequisites:
 
 - Docker 
 
-2. Clone the repo:
+### 2. Clone the repo:
 
 ```bash
 git clone https://github.com/101KiddChang010/rspi-homelab.git
 ```
 
-3. Create an `.env` and fill in password and any additional configurations
+### 3. Fill out confidential local configurations
+Create an `.env` based on [.env.example](./.env.example) and fill in the required configurations
 
-
-
-4. Deploy
+### 4. Deploy Docker Containerss
 
 Run the services in the background
 
