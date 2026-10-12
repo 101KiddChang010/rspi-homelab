@@ -7,7 +7,6 @@ This repository manages services using a Infrastructure as Code (IaC) principles
 ## Services
 
 - Pihole
-- Wireguard
 
 ## Quick Start
 
