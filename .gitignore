@@ -4,4 +4,4 @@
 
 # Ignores all pihole data
 services/pihole/etc-pihole/*
-servsices/pihole/etc-dnsmasq.d/*
+services/pihole/etc-dnsmasq.d/*
